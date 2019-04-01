@@ -1,0 +1,27 @@
+{
+  "name": "dotapop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrenyong/dotaPop.git"
+  },
+  "author": "darren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrenyong/dotaPop/issues"
+  },
+  "homepage": "https://github.com/darrenyong/dotaPop#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
