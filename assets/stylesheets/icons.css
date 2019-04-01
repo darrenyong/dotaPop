@@ -1,0 +1,93 @@
+.hero-icon {
+  background: url("../images/hero_spritesheet.png");
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+
+/* First Row */
+#axe                  { background-position:  0px   0px }
+#anti-mage            { background-position: -32px  0px }
+#crystal-maiden       { background-position: -64px  0px }
+#ancient-apparition   { background-position: -96px  0px }
+#batrider             { background-position: -128px 0px }
+#beastmaster          { background-position: -160px 0px }
+#bloodseeker          { background-position: -192px 0px }
+#bounty-hunter        { background-position: -224px 0px }
+#broodmother          { background-position: -256px 0px }
+#chen                 { background-position: -288px 0px }
+#dark-seer            { background-position: -320px 0px }
+#dazzle               { background-position: -352px 0px }
+#death-prophet        { background-position: -384px 0px }
+#doom                 { background-position: -416px 0px }
+#dragon-knight        { background-position: -448px 0px }
+#alchemist            { background-position: -480px 0px }
+
+/* Second Row */
+#drow-ranger          { background-position:  0px   -32px }
+#earthshaker          { background-position: -32px  -32px }
+#enchantress          { background-position: -64px  -32px }
+#enigma               { background-position: -96px  -32px }
+#faceless-void        { background-position: -128px -32px }
+#furion               { background-position: -160px -32px }
+#huskar               { background-position: -192px -32px }
+#juggernaut           { background-position: -224px -32px }
+#kunkka               { background-position: -256px -32px }
+#leshrac              { background-position: -288px -32px }
+#lich                 { background-position: -320px -32px }
+#lifestealer          { background-position: -352px -32px }
+#lina                 { background-position: -384px -32px }
+#lion                 { background-position: -416px -32px }
+#tusk                 { background-position: -448px -32px }
+#morphling            { background-position: -480px -32px }
+
+/* Third Row */
+#necrophos            { background-position:  0px   -64px }
+#shadow-fiend         { background-position: -32px  -64px }
+#nightstalker         { background-position: -64px  -64px }
+#omniknight           { background-position: -96px  -64px }
+#puck                 { background-position: -128px -64px }
+#pudge                { background-position: -160px -64px }
+#pugna                { background-position: -192px -64px }
+#queen-of-pain        { background-position: -224px -64px }
+#clockwerk            { background-position: -256px -64px }
+#razor                { background-position: -288px -64px }
+#riki                 { background-position: -320px -64px }
+#sand-king            { background-position: -352px -64px }
+#shadow-fiend         { background-position: -384px -64px }
+#silencer             { background-position: -416px -64px }
+#wraith-king          { background-position: -448px -64px }
+#slardar              { background-position: -480px -64px }
+
+/* Fourth Row */
+#sniper               { background-position:  0px   -96px }
+#spectre              { background-position: -32px  -96px }
+#spirit-breaker       { background-position: -64px  -96px }
+#storm-spirit         { background-position: -96px  -96px }
+#sven                 { background-position: -128px -96px }
+#tidehunter           { background-position: -160px -96px }
+#tinker               { background-position: -192px -96px }
+#tiny                 { background-position: -224px -96px }
+#jakiro               { background-position: -256px -96px }
+#ursa                 { background-position: -288px -96px }
+#vengeful-spirit      { background-position: -320px -96px }
+#venomancer           { background-position: -352px -96px }
+#viper                { background-position: -384px -96px }
+#warlock              { background-position: -416px -96px }
+#weaver               { background-position: -448px -96px }
+#windranger           { background-position: -480px -96px }
+
+/* Fifth Row */
+#witch-doctor { background-position: 0px -128px }
+
+/* Sixth Row */
+#treant-protector { background-position: 0px -160px }
+
+/* Seventh Row */
+#slark { background-position: 0px -192px }
+
+/* Eigth Row */
+#underlord { background-position: 0px -224px }
+
+/* Ninth Row */
+#dark-willow { background-position: 0px -256px }
