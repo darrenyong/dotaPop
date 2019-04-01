@@ -78,10 +78,40 @@
 #windranger           { background-position: -480px -96px }
 
 /* Fifth Row */
-#witch-doctor { background-position: 0px -128px }
+#witch-doctor         { background-position:  0px   -128px }
+#zeus                 { background-position: -32px  -128px }
+#invoker              { background-position: -64px  -128px }
+#clinkz               { background-position: -96px  -128px }
+#outworld-devourer    { background-position: -128px -128px }
+#bane                 { background-position: -160px -128px }
+#shadow-fiend         { background-position: -192px -128px }
+#lycan                { background-position: -224px -128px }
+#lone-druid           { background-position: -256px -128px }
+#brewmaster           { background-position: -288px -128px }
+#fire                 { background-position: -320px -128px }
+#storm                { background-position: -352px -128px }
+#earth                { background-position: -384px -128px }
+#phantom-lancer       { background-position: -416px -128px }
+#chaos-knight         { background-position: -448px -128px }
+#phantom-assassin     { background-position: -480px -128px }
 
 /* Sixth Row */
-#treant-protector { background-position: 0px -160px }
+#treant-protector     { background-position:  0px   -160px }
+#luna                 { background-position: -32px  -160px }
+#jakiro               { background-position: -64px  -160px }
+#gyrocopter           { background-position: -96px  -160px }
+#rubick               { background-position: -128px -160px }
+#io                   { background-position: -160px -160px }
+#disruptor            { background-position: -192px -160px }
+#undying              { background-position: -224px -160px }
+#naga-siren           { background-position: -256px -160px }
+#templar-assassin     { background-position: -288px -160px }
+#nyx-assassin         { background-position: -320px -160px }
+#keeper-of-the-light  { background-position: -352px -160px }
+#visage               { background-position: -384px -160px }
+#magnus               { background-position: -416px -160px }
+#meepo                { background-position: -448px -160px }
+#centaur-warrunner    { background-position: -480px -160px }
 
 /* Seventh Row */
 #slark { background-position: 0px -192px }
