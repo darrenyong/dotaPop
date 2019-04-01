@@ -55,7 +55,7 @@
 #razor                    { background-position: -288px -64px }
 #riki                     { background-position: -320px -64px }
 #sand-king                { background-position: -352px -64px }
-#shadow-fiend             { background-position: -384px -64px }
+#shadow-shaman            { background-position: -384px -64px }
 #silencer                 { background-position: -416px -64px }
 #wraith-king              { background-position: -448px -64px }
 #slardar                  { background-position: -480px -64px }
@@ -85,7 +85,7 @@
 #clinkz                   { background-position: -96px  -128px }
 #outworld-devourer        { background-position: -128px -128px }
 #bane                     { background-position: -160px -128px }
-#shadow-fiend             { background-position: -192px -128px }
+#shadow-demon             { background-position: -192px -128px }
 #lycan                    { background-position: -224px -128px }
 #lone-druid               { background-position: -256px -128px }
 #brewmaster               { background-position: -288px -128px }
@@ -99,7 +99,7 @@
 /* Sixth Row */
 #treant-protector         { background-position:  0px   -160px }
 #luna                     { background-position: -32px  -160px }
-#jakiro                   { background-position: -64px  -160px }
+#ogre-magi                { background-position: -64px  -160px }
 #gyrocopter               { background-position: -96px  -160px }
 #rubick                   { background-position: -128px -160px }
 #io                       { background-position: -160px -160px }
