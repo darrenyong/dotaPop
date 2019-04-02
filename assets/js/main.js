@@ -1,5 +1,10 @@
 (function(e) {
-  e.init = function() {
+  app.init = function() {
+    d3.csv("data/valveEvents.csv", function(data) {
+      console.log(data);
+    })
     console.log("This is working");
   }
-}(window.e = window.e || {}));
+
+
+}(window.app = window.app || {}));
