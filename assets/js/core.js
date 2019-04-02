@@ -1,6 +1,7 @@
 (function(app) {
   app.data = {};
 
+  // List heroes by main attribute
   app.HERO_LIST = [
     {
       "attribute" : "Strength",
@@ -136,6 +137,7 @@
     }
   ];
 
+  // List events
   app.VALVE_EVENTS = [
                       {event: "The International 2013", date: "2013-08-02"},
                       {event: "The International 2014", date: "2014-07-08"},
@@ -148,6 +150,13 @@
                       {event: "The Kiev Major 2017", date: "2017-04-27"},
                       {event: "The International 2017", date: "2017-08-02"},
                      ];
-
+  
+  app.EVENTS = app.VALVE_EVENTS.map(function(d) { return d.event });
+  
+  // Set defaults on selected event and hero display
+  app.selectedEvent = "The International 2013";
+  app.toggleSort = false;
+  app.selectedHero = "Anti-Mage";
+  
 
 })
