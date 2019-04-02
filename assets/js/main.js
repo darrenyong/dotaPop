@@ -27,6 +27,19 @@
       let countPB = 113;
       let rate = 0;
       
+      event.values.forEach(function(hero) {
+        if (hero.pick_ban_rate === null) {
+          total -= 1;
+          count -= 1;
+        }
+        if (hero.pick_ban_rate === 0) count -= 1;
+        if (hero.pick_ban_rate !== null) rate += hero.pick_ban_rate;
+      });
+
+      event.total_heroes = total;
+      event.picked_banned_heroes = count;
+      event.ave_pick_ban_rate = rate/total;
+      event.total_games = Math.round(event.values[0].no_picks_ban/event.values[0].pick_ban_rate*100);
     })
   }
 
