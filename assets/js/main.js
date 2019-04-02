@@ -1,6 +1,6 @@
 (function(app) {
   app.init = function() {
-    d3.csv("data/valveEvents.csv", convertColumns, function(data) {
+    d3.csv("data/valveEvents.csv", convertColumns, (data) => {
       processData(data);
     })
     console.log("This is working");
@@ -14,21 +14,21 @@
     console.log(data);
      const nestedData = (
       d3.nest()
-        .sortValues(function(a, b) {
+        .sortValues( (a, b) => {
           if (a.attribute === b.attribute) {
           return a.heroName < b.heroName ? -1 : a.heroName > b.heroName ? 1 : 0;
         } else {
           return a.attriute < b.attriute ? -1 : 1;
         }})
-        .key(function(d) { return d.event })
+        .key( (d) => { return d.event })
         .entries(data));
 
-    nestedData.forEach(function(event) {
+    nestedData.forEach( (event) => {
       let totalNumHeroes = 113;
       let countPB = 113;
       let rate = 0;
       
-      event.values.forEach(function(hero) {
+      event.values.forEach( (hero) => {
         if (hero.pick_ban_rate === null) {
           totalNumHeroes -= 1;
           countPB -= 1;
@@ -52,12 +52,12 @@
       mainAttribute: data.attribute,
       
       // Pick and Ban Info
-      num_picked: +data.no_picks,
-      num_banned: +data.no_bans,
-      num_picked_banned: +data.no_picks_bans,
-      pick_rate: data.pick_rate === '' ? null : parseFloat(data.pick_rate),
-      ban_rate: data.ban_rate === '' ? null : parseFloat(data.ban_rate),
-      pick_ban_rate: data.pick_ban_rate === '' ? null : parseFloat(data.pick_ban_rate),
+      numPicked: +data.no_picks,
+      numBanned: +data.no_bans,
+      numPickedBanned: +data.no_picks_bans,
+      pickRate: data.pick_rate === '' ? null : parseFloat(data.pick_rate),
+      banRate: data.ban_rate === '' ? null : parseFloat(data.ban_rate),
+      pickBanRate: data.pick_ban_rate === '' ? null : parseFloat(data.pick_ban_rate),
       
       // Win Rate Info
       win_rate: parseFloat(data.win_rate)
