@@ -3,24 +3,23 @@
     d3.csv("data/valveEvents.csv", convertColumns, (data) => {
       processData(data);
     })
-    console.log("This is working");
   }
 
   function processData(data) {
     app.data = sortData(data);
+    app.renderChart();
   }
 
   function sortData(data) {
-    console.log(data);
      const nestedData = (
       d3.nest()
         .sortValues( (a, b) => {
-          if (a.attribute === b.attribute) {
-          return a.heroName < b.heroName ? -1 : a.heroName > b.heroName ? 1 : 0;
-        } else {
-          return a.attriute < b.attriute ? -1 : 1;
-        }})
-        .key( (d) => { return d.event })
+          if (a.mainAttribute === b.mainAttribute) {
+            return a.heroName < b.heroName ? -1 : a.heroName > b.heroName ? 1 : 0;
+          } else {
+            return a.mainAttriute < b.mainAttriute ? -1 : 1;
+          }})
+        .key(function(d) { return d.eventName })
         .entries(data));
 
     nestedData.forEach( (event) => {
@@ -39,8 +38,9 @@
 
       event.total_heroes = totalNumHeroes;
       event.picked_banned_heroes = countPB;
-      event.ave_pick_ban_rate = rate/totalNumHeroes;
-      event.total_games = Math.round(event.values[0].no_picks_ban/event.values[0].pick_ban_rate*100);
+      event.avg_pick_ban_rate = rate/totalNumHeroes;
+      event.total_games = Math.round(event.values[0].numPickedBanned/event.values[0].pickBanRate*100);
+
     })
   }
 
