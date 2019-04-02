@@ -167,4 +167,4 @@
     return data.filter( (d) => { return d.key === eventName })[0];
   }
 
-})
+}(window.app = window.app || {}));
