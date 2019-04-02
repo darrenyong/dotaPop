@@ -148,15 +148,23 @@
                       {event: "The International 2016", date: "2016-08-02"},
                       {event: "The Boston Major 2016", date: "2016-12-03"},
                       {event: "The Kiev Major 2017", date: "2017-04-27"},
-                      {event: "The International 2017", date: "2017-08-02"},
+                      {event: "The International 2017", date: "2017-08-02"}
                      ];
   
-  app.EVENTS = app.VALVE_EVENTS.map(function(d) { return d.event });
+  app.EVENTS = app.VALVE_EVENTS.map( (d) => { return d.event });
   
   // Set defaults on selected event and hero display
   app.selectedEvent = "The International 2013";
   app.toggleSort = false;
   app.selectedHero = "Anti-Mage";
-  
+
+  app.formatName = function(heroName) {
+    let formattedName = heroName.toLowerCase().replace(/ /g, "_");
+    return formattedName;
+  }
+
+  app.filterByEvent = function(data, eventName) {
+    return data.filter( (d) => { return d.key === eventName })[0];
+  }
 
 })
