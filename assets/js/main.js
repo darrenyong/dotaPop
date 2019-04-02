@@ -1,4 +1,4 @@
-(function(e) {
+(function(app) {
   app.init = function() {
     d3.csv("data/valveEvents.csv", convertColumns, function(data) {
       processData(data);
