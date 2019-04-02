@@ -11,6 +11,7 @@
   }
 
   function sortData(data) {
+    console.log(data);
      const nestedData = (
       d3.nest()
         .sortValues(function(a, b) {
@@ -29,16 +30,16 @@
       
       event.values.forEach(function(hero) {
         if (hero.pick_ban_rate === null) {
-          total -= 1;
-          count -= 1;
+          totalNumHeroes -= 1;
+          countPB -= 1;
         }
-        if (hero.pick_ban_rate === 0) count -= 1;
+        if (hero.pick_ban_rate === 0) countPB -= 1;
         if (hero.pick_ban_rate !== null) rate += hero.pick_ban_rate;
       });
 
-      event.total_heroes = total;
-      event.picked_banned_heroes = count;
-      event.ave_pick_ban_rate = rate/total;
+      event.total_heroes = totalNumHeroes;
+      event.picked_banned_heroes = countPB;
+      event.ave_pick_ban_rate = rate/totalNumHeroes;
       event.total_games = Math.round(event.values[0].no_picks_ban/event.values[0].pick_ban_rate*100);
     })
   }
@@ -47,7 +48,7 @@
     return {
       // Basic Hero Info
       event: data.event,
-      heroName: data.heroName,
+      heroName: data.hero,
       attribute: data.attribute,
       
       // Pick and Ban Info
