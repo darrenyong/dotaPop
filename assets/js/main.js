@@ -28,12 +28,13 @@
       let rate = 0;
       
       event.values.forEach( (hero) => {
-        if (hero.pick_ban_rate === null) {
+        // console.log(hero);
+        if (hero.pickBanRate === null) {
           totalNumHeroes -= 1;
           countPB -= 1;
         }
-        if (hero.pick_ban_rate === 0) countPB -= 1;
-        if (hero.pick_ban_rate !== null) rate += hero.pick_ban_rate;
+        if (hero.pickBanRate === 0) countPB -= 1;
+        if (hero.pickBanRate !== null) rate += hero.pickBanRate;
       });
 
       event.total_heroes = totalNumHeroes;
@@ -46,6 +47,7 @@
       return app.EVENTS.indexOf(a.key) - app.EVENTS.indexOf(b.key);
     })
 
+    console.log(sortedData);
     return sortedData;
   }
 
