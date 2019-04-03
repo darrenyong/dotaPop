@@ -7,6 +7,7 @@
 
   function processData(data) {
     app.data = sortData(data);
+    app.renderDetails();
     app.renderChart();
   }
 

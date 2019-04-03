@@ -6,9 +6,10 @@
 }
 
 .chart-header {
-  height: 150px;
   display: flex;
   justify-content: center;
+  height: 100px;
+  margin: 25px 0px 0px 0px;
   font-size: 75px;
 }
 
@@ -19,10 +20,10 @@
   width: 800px;
 }
 
-.invert {
-  -webkit-filter: invert(100%);
-  max-width: 75px;
-  max-height: 75px;
+.header-subtext {
+  display: flex;
+  justify-content: center;
+  /* margin: 0px 0px 50px 0px; */
 }
 
 .chart-parent {
@@ -37,6 +38,7 @@
   top: 10px;
   position: absolute;
   border-radius: 5px;
+  z-index: -1
 }
 
 .strength.heroes-container {
