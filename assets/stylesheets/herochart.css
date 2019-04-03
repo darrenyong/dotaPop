@@ -1,3 +1,15 @@
+#hero-chart {
+  position: relative;
+  height: 700px;
+  width: 960px;
+  top: 0px;
+}
+
+.chart-header {
+  height: 150px;
+  padding-top: 50px;
+}
+
 .chart-parent {
   width: 960px;
   height: auto;

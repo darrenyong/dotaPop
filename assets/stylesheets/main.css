@@ -1,4 +1,11 @@
 html body {
   background: #191919;
   color: white;
+  font-family: hypatia-sans-pro;
+  font-weight: 400;
+}
+
+.chart-header {
+  height: 150px;
+  padding-top: 50px;
 }
