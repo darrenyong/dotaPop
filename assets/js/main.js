@@ -9,6 +9,7 @@
     app.data = sortData(data);
     app.renderDetails();
     app.renderChart();
+    app.onEventChange();
   }
 
   function sortData(data) {
@@ -44,7 +45,7 @@
       event.total_games = Math.round(event.values[0].numPickedBanned/event.values[0].pickBanRate*100);
     })
 
-    let sortedData = nestedData.sort( function(a,b) {
+    let sortedData = nestedData.sort( (a,b) => {
       return app.EVENTS.indexOf(a.key) - app.EVENTS.indexOf(b.key);
     })
 

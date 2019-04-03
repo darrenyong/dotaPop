@@ -1,4 +1,20 @@
-(function(app) {
+(function(app) {  
+  function sortByPickBan(data) {
+    let sortedData = data.sort( (a, b) => {
+      if (a.mainAttribute === b.mainAttribute) {
+        if (a.pickBanRate === null || b.pickBanRate === null) {
+          return a.pickBanRate === null ? 1 : -1;
+        } else {
+          return a.pickBanRate > b.pickBanRate ? -1 : a.pickBanRate < b.pickBanRate ? 1 : 0;
+        }
+      } else {
+        return a.mainAttribute < b.mainAttribute ? -1 : 1;
+      }
+    })
+    
+    return sortedData;
+  }
+  
   const ATTRIBUTE = {
     "Agility": { "margin": 10, "i": 0 },
     "Intelligence": { "margin": 330, "i": 36 },
@@ -6,7 +22,7 @@
   }
   const HERO_MARGIN = 17;
   const HERO_SIZE = 32;
-
+  
   function heroTop(data, idx) {
     let attribute = data.mainAttribute;
     let top = HERO_MARGIN + (Math.floor( (idx - ATTRIBUTE[attribute].i) / 6)) * (HERO_MARGIN + HERO_SIZE);
@@ -19,8 +35,8 @@
     return left + "px";
   }
 
-  function key(d) {
-    return d.hereo;
+  function key(data) {
+    return data.heroName;
   }
 
   app.renderChart = function() {
@@ -48,5 +64,14 @@
         .style("top", heroTop)
         .style("left", heroLeft)
   };
+
+  app.updateChart = function(data) {
+    let sortedData = sortByPickBan(data.values);
+    let heroIcons = d3.selectAll("a.hero-icon")
+                      .data(sortedData, key);
+  
+    heroIcons.style("top", heroTop)
+             .style("left", heroLeft)
+  }
 
 }(window.app = window.app || {}));
