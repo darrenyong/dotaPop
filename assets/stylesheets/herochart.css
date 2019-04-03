@@ -42,16 +42,16 @@
 }
 
 .strength.heroes-container {
-  background-color: rgba(234, 60, 6, 0.9);
+  background-color: rgba(249, 82, 31, 0.9);
   left: 650px;
 }
 
 .agility.heroes-container {
-  background-color: rgba(82, 224, 43, 0.9);
+  background-color: rgba(110, 228, 78, 0.9);
   left: 10px;
 }
 
 .intelligence.heroes-container {
-  background-color: rgba(94, 217, 236, 0.9); 
+  background-color: rgba(117, 223, 240, 0.9);
   left: 330px;
 }
