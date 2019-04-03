@@ -7,16 +7,16 @@
 }
 
 .strength.heroes-container {
-  background-color: #ea3c06;
+  background-color: rgba(234, 60, 6, 0.9);
   left: 650px;
 }
 
 .agility.heroes-container {
-  background-color: #52e02b;
+  background-color: rgba(82, 224, 43, 0.9);
   left: 10px;
 }
 
 .intelligence.heroes-container {
-  background-color: #5ed9ec;
+  background-color: rgba(94, 217, 236, 0.9); 
   left: 330px;
 }
