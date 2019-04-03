@@ -1,3 +1,9 @@
+.chart-parent {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .heroes-container {
   width: 300px;
   height: 360px;

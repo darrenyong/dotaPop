@@ -2,22 +2,25 @@
   const HEIGHT = 500;
   const WIDTH = 900;
   const ATTRIBUTE = {
-    "Strength": { "margin": 650, "i": 76 },
     "Agility": { "margin": 10, "i": 0 },
-    "Intelligence": { "margin": 330, "i": 36 }
+    "Intelligence": { "margin": 330, "i": 36 },
+    "Strength": { "margin": 650, "i": 76 }
   }
   const HERO_MARGIN = 17;
   const HERO_SIZE = 32;
 
-  function heroTop(d, i) {
-    let attribute = d.attribute;
-    let top = HERO_MARGIN + (Math.floor( (i - ATTRIBUTE[attribute].i) / 6)) * (HERO_MARGIN + HERO_SIZE);
+  function heroTop(data, idx) {
+    console.log(data);
+    let attribute = data.mainAttribute;
+    let top = HERO_MARGIN + (Math.floor( (idx - ATTRIBUTE[attribute].i) / 6)) * (HERO_MARGIN + HERO_SIZE);
+    // console.log(top + "px")
     return top + "px";
   }
 
-  function heroLeft(d, i) {
-    let attribute = d.attribute;
-    let left = ATTRIBUTE[attribute].margin + ( (i - ATTRIBUTE[attribute].i) % 6 ) * (HERO_MARGIN + HERO_SIZE);
+  function heroLeft(data, idx) {
+    let attribute = data.mainAttribute;
+    let left = ATTRIBUTE[attribute].margin + ( (idx - ATTRIBUTE[attribute].i) % 6 ) * (HERO_MARGIN + HERO_SIZE);
+    // console.log(left + "px")
     return left + "px";
   }
 

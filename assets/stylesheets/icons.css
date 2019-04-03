@@ -2,7 +2,9 @@
   background: url("../images/hero_spritesheet.png");
   height: 32px;
   width: 32px;
+  margin: 8px;
   display: inline-block;
+  position: absolute;
 }
 
 /* Hero Icon Sprite Locations */
@@ -30,7 +32,7 @@
 #enchantress              { background-position: -64px  -32px }
 #enigma                   { background-position: -96px  -32px }
 #faceless-void            { background-position: -128px -32px }
-#furion                   { background-position: -160px -32px }
+#natures-prophet          { background-position: -160px -32px }
 #huskar                   { background-position: -192px -32px }
 #juggernaut               { background-position: -224px -32px }
 #kunkka                   { background-position: -256px -32px }
