@@ -47,7 +47,6 @@
       return app.EVENTS.indexOf(a.key) - app.EVENTS.indexOf(b.key);
     })
 
-    console.log(sortedData);
     return sortedData;
   }
 

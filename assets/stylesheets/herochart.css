@@ -1,0 +1,22 @@
+.heroes-container {
+  width: 300px;
+  height: 360px;
+  top: 10px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.strength.heroes-container {
+  background-color: #ea3c06;
+  left: 650px;
+}
+
+.agility.heroes-container {
+  background-color: #52e02b;
+  left: 10px;
+}
+
+.intelligence.heroes-container {
+  background-color: #5ed9ec;
+  left: 330px;
+}
