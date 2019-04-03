@@ -7,7 +7,22 @@
 
 .chart-header {
   height: 150px;
-  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.invert {
+  -webkit-filter: invert(100%);
+  max-width: 75px;
+  max-height: 75px;
 }
 
 .chart-parent {
