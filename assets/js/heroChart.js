@@ -40,12 +40,15 @@
 
       let nData = app.filterByEvent(app.data, app.selectedEvent);
 
-      d3.select("#chart")
+      d3.select("#hero-chart")
         .selectAll("a.hero-icon")
         .data(nData.values, key)
         .enter()
         .append("a")
-        .attr("class", (d) => { return app.formatName()})
+        .attr("id", (d) => { return app.formatName(d.heroName) })
+        .classed("hero-icon", true)
+        .style("top", heroTop)
+        .style("left", heroLeft)
   };
 
 }(window.app = window.app || {}));

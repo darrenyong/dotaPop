@@ -159,7 +159,7 @@
   app.selectedHero = "Anti-Mage";
 
   app.formatName = function(heroName) {
-    let formattedName = heroName.toLowerCase().replace(/ /g, "_");
+    let formattedName = heroName.toLowerCase().replace(/ /g, "-");
     return formattedName;
   }
 
