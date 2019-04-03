@@ -23,8 +23,11 @@
     <div class="chart-header">
       <div class="header-title">
         <div><img src="https://img.icons8.com/color/96/000000/dota.png"></div>
-        <h1>DOTA 2</h1>
+        <p>DOTA 2</p>
       </div>
+    </div>
+    <div class="header-subtext">
+      <p>Hero Popularity</p>
     </div>
     
     <div class="chart-parent">
@@ -33,6 +36,47 @@
       </div>
 
       <div id="hero-details">
+        <p class="event-name"></p>
+        <label>
+          <input type="checkbox" class="details-sort" />
+          <p>Sort</p>
+        </label>
+
+        <label>
+          <input type="checkbox" class="details-toggle">
+          <p>Details</p>
+        </label>
+
+        <div class="event-bar">
+          <p class="pb-bar">
+            Heroes Picked/Banned: <strong>0.0%</strong>
+          </p>
+        </div>
+
+        <div class="detail-stats">
+          <div class="hero-stats">
+            <p class="hero-name"></p>
+            <p>Pick/Ban Rate</p>
+            <p class="pb-percent">0.0%</p>
+          </div>
+          <div class="hero-table">
+            <div>
+              <p>Games</p>
+              <p class="detail-games">
+                <span>110</span>/<span>113</span>
+              </p>
+            </div>
+            <div>
+              <p>Pick Rate</p>
+              <p class="detail-pick">0.0%</p>
+            </div>
+            <div>
+              <p>Ban Rate</p>
+              <p class="detail-ban">0.0%</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div id="hero-chart">
@@ -190,6 +234,7 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/data.js"></script>
+    <script src="assets/js/details.js"></script>
     <script src="assets/js/heroChart.js"></script>
   </body>
 </html>
