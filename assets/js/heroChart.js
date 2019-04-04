@@ -33,7 +33,7 @@
                           .range([0.7, 2.0])
   
   function heroSize(rate) {
-    return (rate === null) ? 1.0 : (rate === 0) ? 0.6: heroSizeScale(rate);
+    return (rate === null) ? 1.0 : (rate === 0) ? 0.6 : heroSizeScale(rate);
   }
   
   const ATTRIBUTE = {
@@ -41,19 +41,19 @@
     "Intelligence": { "margin": 330, "i": 36 },
     "Strength": { "margin": 650, "i": 76 }
   }
-  const HERO_MARGIN = 17;
+  const HERO_MARGIN = 25;
   const HERO_SIZE = 32;
   
-  // Puts 6 columns per attribute container
+  // Puts 5 columns per attribute container
   function heroTop(data, idx) {
     let attribute = data.mainAttribute;
-    let top = HERO_MARGIN + (Math.floor( (idx - ATTRIBUTE[attribute].i) / 6)) * (HERO_MARGIN + HERO_SIZE);
+    let top = HERO_MARGIN + (Math.floor( (idx - ATTRIBUTE[attribute].i) / 5)) * (HERO_MARGIN + HERO_SIZE);
     return top + "px";
   }
 
   function heroLeft(data, idx) {
     let attribute = data.mainAttribute;
-    let left = ATTRIBUTE[attribute].margin + ( (idx - ATTRIBUTE[attribute].i) % 6 ) * (HERO_MARGIN + HERO_SIZE);
+    let left = ATTRIBUTE[attribute].margin + ( (idx - ATTRIBUTE[attribute].i) % 5 ) * (HERO_MARGIN + HERO_SIZE);
     return left + "px";
   }
 
