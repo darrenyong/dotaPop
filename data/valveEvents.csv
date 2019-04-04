@@ -225,6 +225,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 0,The Frankfurt Major 2015,Techies,0,0,0,0,0,0,Intelligence
 0,The Frankfurt Major 2015,Warlock,0,0,0,0,0,0,Intelligence
 0,The Frankfurt Major 2015,Zeus,0,0,0,0,0,0,Intelligence
+29.01%,The International 2013,Weaver,47,75,122,75.31%,46.30%,57.33%,Agility
 69.75%,The International 2013,Batrider,113,48,161,99.38%,29.63%,45.83%,Intelligence
 74.07%,The International 2013,Outworld Devourer,120,32,152,93.83%,19.75%,37.50%,Intelligence
 51.85%,The International 2013,Lifestealer,84,67,151,93.21%,41.36%,56.72%,Strength
@@ -233,7 +234,6 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 66.05%,The International 2013,Io,107,27,134,82.72%,16.67%,62.96%,Strength
 45.06%,The International 2013,Dark Seer,73,59,132,81.48%,36.42%,52.54%,Intelligence
 44.44%,The International 2013,Alchemist,72,60,132,81.48%,37.04%,46.67%,Strength
-29.01%,The International 2013,Weaver,47,75,122,75.31%,46.30%,57.33%,Agility
 25.31%,The International 2013,Natures Prophet,41,69,110,67.90%,42.59%,47.83%,Intelligence
 30.86%,The International 2013,Dragon Knight,50,57,107,66.05%,35.19%,43.86%,Strength
 35.80%,The International 2013,Naga Siren,58,43,101,62.35%,26.54%,55.81%,Agility
