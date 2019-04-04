@@ -26,6 +26,15 @@
 
     return sortedData;
   }
+
+
+  const heroSizeScale = d3.scaleLinear()
+                          .domain([0.0, 100.0])
+                          .range([0.5, 2.5])
+  
+  function heroSize(rate) {
+    return (rate === 0) ? 1.0 : heroSizeScale(rate);
+  }
   
   const ATTRIBUTE = {
     "Agility": { "margin": 10, "i": 0 },
@@ -60,7 +69,7 @@
       .data(d3.keys(ATTRIBUTE))
       .enter()
       .append("div")
-      .attr("class", (d) => { return app.formatName(d) })
+      .attr("class", (data) => { return app.formatName(data) })
       .classed("heroes-container", true)
       .style("opacity", 1.0)
 
@@ -71,7 +80,7 @@
         .data(filterData.values, key)
         .enter()
         .append("a")
-        .attr("id", (d) => { return app.formatName(d.heroName) })
+        .attr("id", (data) => { return app.formatName(data.heroName) })
         .classed("hero-icon", true)
         .style("top", heroTop)
         .style("left", heroLeft)
@@ -84,6 +93,10 @@
   
     heroIcons.style("top", heroTop)
              .style("left", heroLeft)
+             .on("click", (data) => {
+               app.selectedHero = data.heroName
+               app.updateHeroInfo(data);
+             })
   }
 
 }(window.app = window.app || {}));

@@ -22,7 +22,7 @@
           } else {
             return a.mainAttriute < b.mainAttriute ? -1 : 1;
           }})
-        .key(function(d) { return d.eventName })
+        .key( (data) => { return data.eventName })
         .entries(data));
 
     nestedData.forEach( (event) => {
@@ -69,7 +69,7 @@
       pickBanRate: data.pick_ban_rate === '' ? null : parseFloat(data.pick_ban_rate),
       
       // Win Rate Info
-      win_rate: parseFloat(data.win_rate)
+      winRate: parseFloat(data.win_rate)
     };
   }
 

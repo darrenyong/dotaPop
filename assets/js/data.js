@@ -151,7 +151,7 @@
                       {event: "The International 2017", date: "2017-08-02"}
                      ];
   
-  app.EVENTS = app.VALVE_EVENTS.map( (d) => { return d.event });
+  app.EVENTS = app.VALVE_EVENTS.map( (data) => { return data.event });
   
   // Set defaults on selected event and hero display
   app.selectedEvent = "The International 2013";
@@ -164,7 +164,7 @@
   }
 
   app.filterByEvent = function(data, eventName) {
-    return data.filter( (d) => { return d.key === eventName })[0];
+    return data.filter( (data) => { return data.key === eventName })[0];
   }
 
   app.onEventChange = function() {
