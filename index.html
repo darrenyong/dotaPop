@@ -21,6 +21,7 @@
   </head>
 
   <body onload='app.init()'>
+    <!-- ============= Header Start ============= -->
     <div class="chart-header">
       <div class="header-title">
         <div><img src="https://img.icons8.com/color/96/000000/dota.png"></div>
@@ -30,14 +31,18 @@
     <div class="header-subtext">
       <p>Hero Popularity</p>
     </div>
+    <!-- ============= Header End ============= -->
+
     
     <div class="chart-parent">
       <!-- Event Selectors -->
       <div id="event-selectors">
       </div>
 
+      <!-- ============= Hero Details Start ============= -->
       <div id="hero-details">
         <p class="event-name"></p>
+        
         <label>
           <input type="checkbox" class="details-sort" />
           <p>Sort</p>
@@ -50,7 +55,7 @@
 
         <div class="event-bar">
           <p class="pb-bar">
-            Heroes Picked/Banned: <strong>0.0%</strong>
+            Heroes Picked/Banned: <span>0.0%</span>
           </p>
         </div>
 
@@ -77,14 +82,15 @@
             </div>
           </div>
         </div>
-
       </div>
+      <!-- ============= Hero Details End ============= -->
 
       <div id="hero-chart">
       </div>
 
     </div>
 
+    <!-- ============= Icon Testing Start ============= -->
     <!-- <div class="icon-container">
       <div class="hero-icon" id="axe"> </div>
       <div class="hero-icon" id="anti-mage"> </div>
@@ -229,7 +235,7 @@
       <div class="hero-icon" id="rubick-arcana"> </div>
       <div class="hero-icon" id="mars"> </div>
     </div> -->
-    
+    <!-- ============= Icon Testing End ============= -->
 
     <!-- JavaScript files -->
     <script src="https://d3js.org/d3.v4.min.js"></script>

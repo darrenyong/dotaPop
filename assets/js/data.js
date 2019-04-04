@@ -170,8 +170,6 @@
   app.onEventChange = function() {
     let filteredData = app.filterByEvent(app.data, app.selectedEvent);
     app.updateChart(filteredData);
-    // app.updateEventInfo(filteredData);
-    // app.updateHeroInfo(d3.select("." + app.formatName(app.selectedHero)).datum());
   };
 
 }(window.app = window.app || {}));

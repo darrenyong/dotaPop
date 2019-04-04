@@ -1,4 +1,5 @@
 (function(app) {
+  // Changes the sort button to be selected
   d3.select(".details-sort")
     .on("change", function() {
       let sortButton = d3.select(this);
@@ -7,6 +8,7 @@
       app.onEventChange();
     })
   
+  // Shows and hides the hero details
   d3.select(".details-toggle")
     .on("change", function() {
       let heroDetailsButton = d3.select(this);

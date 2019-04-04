@@ -1,4 +1,4 @@
-(function(app) {  
+(function(app) {
   function sortByPickBan(data) {
     let sortedData = data.sort( (a, b) => {
       if (a.mainAttribute === b.mainAttribute) {
@@ -44,6 +44,7 @@
   const HERO_MARGIN = 17;
   const HERO_SIZE = 32;
   
+  // Puts 6 columns per attribute container
   function heroTop(data, idx) {
     let attribute = data.mainAttribute;
     let top = HERO_MARGIN + (Math.floor( (idx - ATTRIBUTE[attribute].i) / 6)) * (HERO_MARGIN + HERO_SIZE);
