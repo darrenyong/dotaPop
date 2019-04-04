@@ -5,6 +5,27 @@
     })
   }
 
+  // Set defaults on selected event and hero display
+  app.selectedEvent = "The International 2013";
+  app.toggleSort = false;
+  app.selectedHero = "Anti-Mage";
+
+  app.onEventChange = function () {
+    let filteredData = app.filterByEvent(app.data, app.selectedEvent);
+    app.updateChart(filteredData);
+  };
+
+  app.formatName = function (heroName) {
+    let formattedName = heroName.toLowerCase().replace(/ /g, "-");
+    return formattedName;
+  }
+
+  app.filterByEvent = function (data, eventName) {
+    return data.filter((data) => {
+      return data.key === eventName
+    })[0];
+  }
+
   function processData(data) {
     app.data = sortData(data);
     app.renderDetails();
@@ -72,5 +93,4 @@
       winRate: parseFloat(data.win_rate)
     };
   }
-
 }(window.app = window.app || {}));

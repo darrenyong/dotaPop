@@ -153,23 +153,6 @@
   
   app.EVENTS = app.VALVE_EVENTS.map( (data) => { return data.event });
   
-  // Set defaults on selected event and hero display
-  app.selectedEvent = "The International 2013";
-  app.toggleSort = false;
-  app.selectedHero = "Anti-Mage";
 
-  app.formatName = function(heroName) {
-    let formattedName = heroName.toLowerCase().replace(/ /g, "-");
-    return formattedName;
-  }
-
-  app.filterByEvent = function(data, eventName) {
-    return data.filter( (data) => { return data.key === eventName })[0];
-  }
-
-  app.onEventChange = function() {
-    let filteredData = app.filterByEvent(app.data, app.selectedEvent);
-    app.updateChart(filteredData);
-  };
 
 }(window.app = window.app || {}));
