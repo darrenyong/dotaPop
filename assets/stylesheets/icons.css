@@ -7,6 +7,14 @@
   position: absolute;
 }
 
+.darken {
+  -webkit-filter: brightness(30%);
+  -moz-filter: brightness(30%);
+  -o-filter: brightness(30%);
+  -ms-filter: brightness(30%);
+  filter: brightness(30%);
+}
+
 /* Hero Icon Sprite Locations */
 /* First Row */
 #axe                      { background-position:  0px   0px }
