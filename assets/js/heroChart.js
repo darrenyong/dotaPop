@@ -93,6 +93,7 @@
   
     heroIcons.style("top", heroTop)
              .style("left", heroLeft)
+             .style("transform", (d) => { return "scale(" + heroSize(d.pickBanRate) + ")" })
              .on("click", (data) => {
                app.selectedHero = data.heroName
                app.updateHeroInfo(data);
