@@ -9,6 +9,7 @@
     app.data = sortData(data);
     app.renderDetails();
     app.renderChart();
+    app.renderUI();
     app.onEventChange();
   }
 
