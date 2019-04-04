@@ -25,8 +25,8 @@
 
     d3.select("div.event-bar")
       .style("width", barScale(((app.data[0].picked_banned_heroes / app.data[0].total_heroes) * 100)) + "px");
-    d3.select("pb-bar strong")
-      .text(((app.data[0].picked_banned_heroes / app.data[0].total_heroes) * 100).toFixed(1)+"&");
+    d3.select(".pb-bar span")
+      .text(((app.data[0].picked_banned_heroes / app.data[0].total_heroes) * 100).toFixed(1)+"%");
   }
 
   app.updateHeroInfo = function(data) {
