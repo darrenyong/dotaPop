@@ -15,6 +15,14 @@
   filter: brightness(30%);
 }
 
+.not-applicable {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 /* Hero Icon Sprite Locations */
 /* First Row */
 #axe                      { background-position:  0px   0px }

@@ -30,10 +30,10 @@
   // Scales the hero according to the pick-ban rate
   const heroSizeScale = d3.scaleLinear()
                           .domain([0.0, 100.0])
-                          .range([0.5, 2.0])
+                          .range([0.7, 2.0])
   
   function heroSize(rate) {
-    return (rate === 0 || rate === null) ? 1.0 : heroSizeScale(rate);
+    return (rate === null) ? 1.0 : (rate === 0) ? 0.6: heroSizeScale(rate);
   }
   
   const ATTRIBUTE = {
@@ -95,7 +95,8 @@
     heroIcons.style("top", heroTop)
              .style("left", heroLeft)
              .style("transform", (d) => { return "scale(" + heroSize(d.pickBanRate) + ")" })
-             .classed("darken", (d) => { return d.pickBanRate === 0 || d.pickBanRate === null })
+             .classed("darken", (d) => { return d.pickBanRate === 0 })
+             .classed("not-applicable", (d) => { return d.pickBanRate === null })
              .on("click", (data) => {
                app.selectedHero = data.heroName
                app.updateHeroInfo(data);
