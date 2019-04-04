@@ -14,6 +14,18 @@
     
     return sortedData;
   }
+
+  function sortByHeroName(data) {
+    let sortedData = data.sort((a, b) => {
+      if (a.mainAttribute === b.mainAttribute) {
+        return a.heroName < b.heroName ? -1 : a.heroName > b.heroName ? 1 : 0;
+      } else {
+        return a.mainAttribute < b.mainAttribute ? -1 : 1;
+      }
+    })
+
+    return sortedData;
+  }
   
   const ATTRIBUTE = {
     "Agility": { "margin": 10, "i": 0 },
@@ -66,7 +78,7 @@
   };
 
   app.updateChart = function(data) {
-    let sortedData = sortByPickBan(data.values);
+    let sortedData = (app.toggleSort) ? sortByHeroName(data.values) : sortByPickBan(data.values)
     let heroIcons = d3.selectAll("a.hero-icon")
                       .data(sortedData, key);
   
