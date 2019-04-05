@@ -6,7 +6,7 @@
     {
       "attribute" : "Strength",
       "heroes": [
-                  "Abbadon",
+                  "Abaddon",
                   "Alchemist",
                   "Axe",
                   "Beastmaster",
@@ -148,7 +148,9 @@
                       {event: "The International 2016", date: "2016-08-02"},
                       {event: "The Boston Major 2016", date: "2016-12-03"},
                       {event: "The Kiev Major 2017", date: "2017-04-27"},
-                      {event: "The International 2017", date: "2017-08-02"}
+                      {event: "The International 2017", date: "2017-08-02"},
+                      {event: "The Bucharest Major 2018", date: "2018-03-04"},
+                      {event: "The International 2018", date: "2018-08-15"}
                      ];
   
   app.EVENTS = app.VALVE_EVENTS.map( (data) => { return data.event });
