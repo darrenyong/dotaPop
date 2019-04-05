@@ -152,7 +152,4 @@
                      ];
   
   app.EVENTS = app.VALVE_EVENTS.map( (data) => { return data.event });
-  
-
-
 }(window.app = window.app || {}));

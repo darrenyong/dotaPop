@@ -32,6 +32,4 @@
           .style("opacity", 0);
       }
     })
-
-
 }(window.app = window.app || {}));

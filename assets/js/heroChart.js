@@ -102,5 +102,4 @@
                app.updateHeroInfo(data);
              })
   }
-
 }(window.app = window.app || {}));
