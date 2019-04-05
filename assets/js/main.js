@@ -53,7 +53,6 @@
       let rate = 0;
       
       event.values.forEach( (hero) => {
-        // console.log(hero);
         if (hero.pickBanRate === null) {
           totalNumHeroes -= 1;
           countPB -= 1;

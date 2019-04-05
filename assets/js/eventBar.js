@@ -19,6 +19,7 @@
                   .on("change", (d) => {
                     eventName.text(d.event)
                     app.selectedEvent = d.event;
+                    app.onEventChange();
                   })
       })
   }
