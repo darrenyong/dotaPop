@@ -13,6 +13,7 @@
   app.onEventChange = function () {
     let filteredData = app.filterByEvent(app.data, app.selectedEvent);
     app.updateChart(filteredData);
+    app.updateEventInfo(filteredData)
   };
 
   app.formatName = function (heroName) {

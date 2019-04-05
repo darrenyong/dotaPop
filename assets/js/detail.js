@@ -39,6 +39,9 @@
 
   app.updateEventInfo = function(data) {
     d3.select(".pb-bar span")
+      .text(((data.picked_banned_heroes/data.total_heroes) * 100).toFixed(1)+"%")
+    
+    d3.select(".detail-games span:nth-child(2)")
+      .text(data.total_games)
   }  
-
 }(window.app = window.app || {}));
