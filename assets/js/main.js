@@ -12,8 +12,8 @@
 
   app.onEventChange = function () {
     let filteredData = app.filterByEvent(app.data, app.selectedEvent);
-    app.updateChart(filteredData);
     app.updateEventInfo(filteredData)
+    app.updateChart(filteredData);
   };
 
   app.formatName = function (heroName) {
@@ -29,9 +29,9 @@
 
   function processData(data) {
     app.data = sortData(data);
+    app.renderUI();
     app.renderDetails();
     app.renderChart();
-    app.renderUI();
     app.onEventChange();
   }
 

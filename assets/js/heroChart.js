@@ -38,8 +38,8 @@
   
   const ATTRIBUTE = {
     "Agility": { "margin": 10, "i": 0 },
-    "Intelligence": { "margin": 330, "i": 36 },
-    "Strength": { "margin": 650, "i": 76 }
+    "Intelligence": { "margin": 330, "i": 37 },
+    "Strength": { "margin": 650, "i": 77 }
   }
   const HERO_MARGIN = 25;
   const HERO_SIZE = 32;
@@ -62,9 +62,6 @@
   }
 
   app.renderChart = function() {
-    d3.select("#hero-chart").select("#container-histogram").remove();
-    d3.selectAll(".axis-label").remove();
-
     d3.select("#hero-chart")
       .selectAll("div.heroes-container")
       .data(d3.keys(ATTRIBUTE))
@@ -72,6 +69,8 @@
       .append("div")
       .attr("class", (data) => { return app.formatName(data) })
       .classed("heroes-container", true)
+      .style("opacity", 0)
+      .transition()
       .style("opacity", 1.0)
 
       let filterData = app.filterByEvent(app.data, app.selectedEvent);
@@ -92,7 +91,7 @@
     let sortedData = (app.toggleSort) ? sortByHeroName(data.values) : sortByPickBan(data.values)
     let heroIcons = d3.selectAll("a.hero-icon")
                       .data(sortedData, key);
-  
+
     heroIcons.style("top", heroTop)
              .style("left", heroLeft)
              .style("transform", (d) => { return "scale(" + heroSize(d.pickBanRate) + ")" })
