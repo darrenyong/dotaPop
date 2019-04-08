@@ -30,7 +30,7 @@
   // Scales the hero according to the pick-ban rate
   const heroSizeScale = d3.scaleLinear()
                           .domain([0.0, 100.0])
-                          .range([0.7, 2.0])
+                          .range([0.7, 2.5])
   
   function heroSize(rate) {
     return (rate === null) ? 1.0 : (rate === 0) ? 0.6 : heroSizeScale(rate);
