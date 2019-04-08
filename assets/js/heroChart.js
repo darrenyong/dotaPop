@@ -82,6 +82,7 @@
         .enter()
         .append("a")
         .attr("id", (data) => { return app.formatName(data.heroName) })
+        .attr("title", (data) => { return data.heroName })
         .classed("hero-icon", true)
         .style("top", heroTop)
         .style("left", heroLeft)
