@@ -7,6 +7,10 @@
   position: absolute;
 }
 
+.hero-icon:hover {
+  cursor: pointer;
+}
+
 .darken {
   -webkit-filter: brightness(30%);
   -moz-filter: brightness(30%);
