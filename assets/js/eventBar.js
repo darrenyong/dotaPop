@@ -27,6 +27,7 @@
                   .append("img")
                   .attr("src", "assets/images/" + data.img + ".png")
                   .attr("alt", data.event)
+                  .attr("title", data.event)
                   .style("opacity", 0)
                   .style("left", "-10px");
                   
