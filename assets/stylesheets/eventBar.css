@@ -1,0 +1,36 @@
+#event-selectors {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.event-name input {
+  display: none;
+}
+
+.event-name input+label img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.event-name input+label img:hover {
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
+.event-name input:checked+label img {
+  -webkit-filter: brightness(150%);
+  -moz-filter: brightness(150%);
+  -o-filter: brightness(150%);
+  -ms-filter: brightness(150%);
+  filter: brightness(150%);
+}
