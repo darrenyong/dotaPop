@@ -139,18 +139,18 @@
 
   // List events
   app.VALVE_EVENTS = [
-                      {event: "The International 2013", date: "2013-08-02"},
-                      {event: "The International 2014", date: "2014-07-08"},
-                      {event: "The International 2015", date: "2015-07-27"},
-                      {event: "The Frankfurt Major 2015", date: "2015-11-13"},
-                      {event: "The Shanghai Major 2016", date: "2016-02-25"},
-                      {event: "The Manila Major 2016", date: "2016-06-03"},
-                      {event: "The International 2016", date: "2016-08-02"},
-                      {event: "The Boston Major 2016", date: "2016-12-03"},
-                      {event: "The Kiev Major 2017", date: "2017-04-27"},
-                      {event: "The International 2017", date: "2017-08-02"},
-                      {event: "The Bucharest Major 2018", date: "2018-03-04"},
-                      {event: "The International 2018", date: "2018-08-15"}
+                      {event: "The International 2013", img: "theInternational", date: "2013-08-02"},
+                      {event: "The International 2014", img: "theInternational", date: "2014-07-08"},
+                      {event: "The International 2015", img: "theInternational", date: "2015-07-27"},
+                      {event: "The Frankfurt Major 2015", img: "greenMajor", date: "2015-11-13"},
+                      {event: "The Shanghai Major 2016", img: "blueMajor", date: "2016-02-25"},
+                      {event: "The Manila Major 2016", img: "orangeMajor", date: "2016-06-03"},
+                      {event: "The International 2016", img: "theInternational", date: "2016-08-02"},
+                      {event: "The Boston Major 2016", img: "greenMajor", date: "2016-12-03"},
+                      {event: "The Kiev Major 2017", img: "blueMajor", date: "2017-04-27"},
+                      {event: "The International 2017", img: "theInternational", date: "2017-08-02"},
+                      {event: "The Bucharest Major 2018", img: "greenMajor", date: "2018-03-04"},
+                      {event: "The International 2018", img: "theInternational", date: "2018-08-15"}
                      ];
   
   app.EVENTS = app.VALVE_EVENTS.map( (data) => { return data.event });
