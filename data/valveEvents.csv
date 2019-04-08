@@ -1161,7 +1161,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 27.45%,The Bucharest Major 2018,Beastmaster,14,3,17,33.33%,5.88%,0.00%,Strength
 15.69%,The Bucharest Major 2018,Shadow Fiend,8,9,17,33.33%,17.65%,77.78%,Agility
 17.65%,The Bucharest Major 2018,Outworld Devourer,9,7,16,31.37%,13.73%,28.57%,Intelligence
-17.65%,The Bucharest Major 2018,Nature's Prophet,9,7,16,31.37%,13.73%,71.43%,Intelligence
+17.65%,The Bucharest Major 2018,Natures Prophet,9,7,16,31.37%,13.73%,71.43%,Intelligence
 19.61%,The Bucharest Major 2018,Pugna,10,5,15,29.41%,9.80%,40.00%,Intelligence
 17.65%,The Bucharest Major 2018,Morphling,9,6,15,29.41%,11.76%,83.33%,Agility
 21.57%,The Bucharest Major 2018,Keeper of the Light,11,2,13,25.49%,3.92%,0.00%,Intelligence
@@ -1222,6 +1222,30 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 1.96%,The Bucharest Major 2018,Drow Ranger,1,0,1,1.96%,0.00%,-,Agility
 0.00%,The Bucharest Major 2018,Axe,0,1,1,1.96%,1.96%,0.00%,Strength
 0.00%,The Bucharest Major 2018,Anti-Mage,0,1,1,1.96%,1.96%,100.00%,Agility
+,The Bucharest Major 2018,Alchemist,,,,,,,Strength
+,The Bucharest Major 2018,Bloodseeker,,,,,,,Agility
+,The Bucharest Major 2018,Clinkz,,,,,,,Agility
+,The Bucharest Major 2018,Dark Seer,,,,,,,Intelligence
+,The Bucharest Major 2018,Grimstroke,,,,,,,Intelligence
+,The Bucharest Major 2018,Leshrac,,,,,,,Intelligence
+,The Bucharest Major 2018,Mars,,,,,,,Strength
+,The Bucharest Major 2018,Necrophos,,,,,,,Intelligence
+,The Bucharest Major 2018,Pangolier,,,,,,,Agility
+,The Bucharest Major 2018,Pudge,,,,,,,Strength
+,The Bucharest Major 2018,Riki,,,,,,,Agility
+,The Bucharest Major 2018,Shadow Demon,,,,,,,Intelligence
+,The Bucharest Major 2018,Shadow Shaman,,,,,,,Intelligence
+,The Bucharest Major 2018,Silencer,,,,,,,Intelligence
+,The Bucharest Major 2018,Slark,,,,,,,Agility
+,The Bucharest Major 2018,Sniper,,,,,,,Agility
+,The Bucharest Major 2018,Spectre,,,,,,,Agility
+,The Bucharest Major 2018,Spirit Breaker,,,,,,,Strength
+,The Bucharest Major 2018,Techies,,,,,,,Intelligence
+,The Bucharest Major 2018,Treant Protector,,,,,,,Strength
+,The Bucharest Major 2018,Undying,,,,,,,Strength
+,The Bucharest Major 2018,Ursa,,,,,,,Agility
+,The Bucharest Major 2018,Windranger,,,,,,,Intelligence
+,The Bucharest Major 2018,Zeus,,,,,,,Intelligence
 76.92%,The International 2018,Enchantress,150,34,184,94.36%,17.44%,55.88%,Intelligence
 60.00%,The International 2018,Weaver,117,62,179,91.79%,31.79%,58.06%,Agility
 71.79%,The International 2018,Io,140,33,173,88.72%,16.92%,39.39%,Strength
@@ -1242,7 +1266,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 31.28%,The International 2018,Chen,61,26,87,44.62%,13.33%,53.85%,Intelligence
 15.38%,The International 2018,Winter Wyvern,30,55,85,43.59%,28.21%,52.73%,Intelligence
 33.33%,The International 2018,Huskar,65,17,82,42.05%,8.72%,29.41%,Strength
-25.13%,The International 2018,Nature's Prophet,49,33,82,42.05%,16.92%,45.45%,Intelligence
+25.13%,The International 2018,Natures Prophet,49,33,82,42.05%,16.92%,45.45%,Intelligence
 22.05%,The International 2018,Spectre,43,35,78,40.00%,17.95%,54.29%,Agility
 24.10%,The International 2018,Bloodseeker,47,31,78,40.00%,15.90%,48.39%,Agility
 18.46%,The International 2018,Storm Spirit,36,38,74,37.95%,19.49%,50.00%,Intelligence
