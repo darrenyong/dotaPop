@@ -39,7 +39,7 @@
   const ATTRIBUTE = {
     "Agility": { "margin": 10, "i": 0 },
     "Intelligence": { "margin": 330, "i": 37 },
-    "Strength": { "margin": 650, "i": 77 }
+    "Strength": { "margin": 650, "i": 78 }
   }
   const HERO_MARGIN = 25;
   const HERO_SIZE = 32;
