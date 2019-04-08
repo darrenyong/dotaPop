@@ -8,8 +8,13 @@
   font-family: trajan-pro-3, serif;
 }
 
+.pb-bar {
+  margin: 10px 0px;
+  text-align: center;
+}
+
 .event-name {
-  font-size: 25px;
+  font-size: 40px;
   text-align: center;
   margin: 0px;
   width: 960px;
