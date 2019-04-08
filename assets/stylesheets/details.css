@@ -8,3 +8,13 @@
 #hero-details input {
   display: none;
 }
+
+.details-sort,
+.details-toggle {
+  display: inline-block;
+}
+
+.details-sort:hover,
+.details-toggle:hover {
+  cursor: pointer;
+}

@@ -4,6 +4,14 @@
   margin: 20px 0px;
 }
 
+.event-name {
+  font-size: 25px;
+  text-align: center;
+  margin: 0px;
+  width: 960px;
+  letter-spacing: 2px;
+}
+
 .event-name input {
   display: none;
 }
@@ -34,3 +42,4 @@
   -ms-filter: brightness(150%);
   filter: brightness(150%);
 }
+

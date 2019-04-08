@@ -25,14 +25,12 @@
   display: flex;
   justify-content: center;
   font-family: trajan-pro-3, serif;
-  /* margin: 0px 0px 50px 0px; */
 }
 
 .chart-parent {
   width: 960px;
   height: auto;
   margin: 0 auto;
-  font-family: hypatia-sans-pro, sans-serif;
 }
 
 .heroes-container {
