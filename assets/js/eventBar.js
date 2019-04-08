@@ -15,6 +15,7 @@
         eventTitle.append("input")
                   .attr("type", "radio")
                   .attr("id", app.formatName(data.event))
+                  .attr("name", "event-button")
                   .attr("checked", () => { if (idx === 0) return "checked"})
                   .on("change", (d) => {
                     eventName.text(d.event)
