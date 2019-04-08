@@ -14,13 +14,28 @@
 
         eventTitle.append("input")
                   .attr("type", "radio")
-                  .attr("class", app.formatName(data.event))
+                  .attr("id", app.formatName(data.event))
                   .attr("checked", () => { if (idx === 0) return "checked"})
                   .on("change", (d) => {
                     eventName.text(d.event)
                     app.selectedEvent = d.event;
                     app.onEventChange();
                   })
+
+        eventTitle.append("label")
+                  .attr("for", app.formatName(data.event))
+                  .append("img")
+                  .attr("src", "assets/images/" + data.img + ".png")
+                  .attr("alt", data.event)
+                  .style("opacity", 0)
+                  .style("left", "-10px");
+                  
+        eventTitle.select("label img")
+                  .transition()
+                  .delay(idx * 100)
+                  .style("left", "0px")
+                  .style("opacity", 1.0);
+
       })
   }
 }(window.app = window.app || {}));
