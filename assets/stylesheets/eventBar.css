@@ -4,6 +4,10 @@
   margin: 20px 0px;
 }
 
+#hero-details {
+  font-family: trajan-pro-3, serif;
+}
+
 .event-name {
   font-size: 25px;
   text-align: center;
