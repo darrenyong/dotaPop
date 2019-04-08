@@ -97,6 +97,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The Boston Major 2016,Pangolier,,,,,,,Agility
 ,The Boston Major 2016,Monkey King,,,,,,,Agility
 ,The Boston Major 2016,Underlord,,,,,,,Strength
+,The Boston Major 2016,Mars,,,,,,,Strength
 ,The Boston Major 2016,Arc Warden,,,,,,,Agility
 0,The Boston Major 2016,Chaos Knight,0,0,0,0,0,0,Strength
 0,The Boston Major 2016,Phoenix,0,0,0,0,0,0,Strength
@@ -203,6 +204,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The Frankfurt Major 2015,Monkey King,,,,,,,Agility
 ,The Frankfurt Major 2015,Pangolier,,,,,,,Agility
 ,The Frankfurt Major 2015,Underlord,,,,,,,Strength
+,The Frankfurt Major 2015,Mars,,,,,,,Strength
 ,The Frankfurt Major 2015,Arc Warden,,,,,,,Agility
 ,The Frankfurt Major 2015,Earth Spirit,,,,,,,Strength
 ,The Frankfurt Major 2015,Terrorblade,,,,,,,Agility
@@ -321,6 +323,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The International 2013,Pangolier,,,,,,,Agility
 ,The International 2013,Monkey King,,,,,,,Agility
 ,The International 2013,Underlord,,,,,,,Strength
+,The International 2013,Mars,,,,,,,Strength
 ,The International 2013,Arc Warden,,,,,,,Agility
 ,The International 2013,Winter Wyvern,,,,,,,Intelligence
 ,The International 2013,Oracle,,,,,,,Intelligence
@@ -444,6 +447,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The International 2014,Monkey King,,,,,,,Agility
 ,The International 2014,Pangolier,,,,,,,Agility
 ,The International 2014,Underlord,,,,,,,Strength
+,The International 2014,Mars,,,,,,,Strength
 ,The International 2014,Arc Warden,,,,,,,Agility
 ,The International 2014,Winter Wyvern,,,,,,,Intelligence
 ,The International 2014,Oracle,,,,,,,Intelligence
@@ -558,6 +562,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The International 2015,Monkey King,,,,,,,Agility
 ,The International 2015,Pangolier,,,,,,,Agility
 ,The International 2015,Underlord,,,,,,,Strength
+,The International 2015,Mars,,,,,,,Strength
 ,The International 2015,Arc Warden,,,,,,,Agility
 ,The International 2015,Earth Spirit,,,,,,,Strength
 ,The International 2015,Oracle,,,,,,,Intelligence
@@ -687,6 +692,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The International 2016,Monkey King,,,,,,,Agility
 ,The International 2016,Pangolier,,,,,,,Agility
 ,The International 2016,Underlord,,,,,,,Strength
+,The International 2016,Mars,,,,,,,Strength
 ,The International 2016,Arc Warden,,,,,,,Agility
 ,The International 2016,Dark Willow,,,,,,,Intelligence
 ,The International 2016,Grimstroke,,,,,,,Intelligence
@@ -794,7 +800,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 44.83%,The Kiev Major 2017,Treant Protector,52,36,88,75.86%,31.03%,50.00%,Strength
 9.48%,The Kiev Major 2017,Troll Warlord,11,13,24,20.69%,11.21%,38.46%,Agility
 0.00%,The Kiev Major 2017,Tusk,0,10,10,8.62%,8.62%,60.00%,Strength
-0,The Kiev Major 2017,Underlord,0,0,0,0,0,0,Strength
+,The Kiev Major 2017,Underlord,,,,,,,Strength
 0.86%,The Kiev Major 2017,Undying,1,5,6,5.17%,4.31%,40.00%,Strength
 14.66%,The Kiev Major 2017,Ursa,17,8,25,21.55%,6.90%,62.50%,Agility
 25.86%,The Kiev Major 2017,Vengeful Spirit,30,32,62,53.45%,27.59%,50.00%,Agility
@@ -809,6 +815,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 1.72%,The Kiev Major 2017,Wraith King,2,2,4,3.45%,1.72%,50.00%,Strength
 0.86%,The Kiev Major 2017,Zeus,1,0,1,0.86%,0.00%,0.00%,Intelligence
 ,The Kiev Major 2017,Pangolier,,,,,,,Agility
+,The Kiev Major 2017,Mars,,,,,,,Strength
 ,The Kiev Major 2017,Dark Willow,,,,,,,Intelligence
 ,The Kiev Major 2017,Grimstroke,,,,,,,Intelligence
 54.55%,The Manila Major 2016,Beastmaster,54,35,89,89.90%,35.35%,45.71%,Strength
@@ -914,6 +921,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The Manila Major 2016,Dark Willow,,,,,,,Intelligence
 ,The Manila Major 2016,Grimstroke,,,,,,,Intelligence
 ,The Manila Major 2016,Underlord,,,,,,,Strength
+,The Manila Major 2016,Mars,,,,,,,Strength
 ,The Manila Major 2016,Arc Warden,,,,,,,Agility
 0,The Manila Major 2016,Chaos Knight,0,0,0,0,0,0,Strength
 0,The Manila Major 2016,Omniknight,0,0,0,0,0,0,Strength
@@ -1022,6 +1030,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 ,The Shanghai Major 2016,Dark Willow,,,,,,,Intelligence
 ,The Shanghai Major 2016,Grimstroke,,,,,,,Intelligence
 ,The Shanghai Major 2016,Underlord,,,,,,,Strength
+,The Shanghai Major 2016,Mars,,,,,,,Strength
 ,The Shanghai Major 2016,Arc Warden,,,,,,,Agility
 0,The Shanghai Major 2016,Axe,0,0,0,0,0,0,Strength
 0,The Shanghai Major 2016,Clockwerk,0,0,0,0,0,0,Strength
@@ -1133,6 +1142,7 @@ ban_rate,event,hero,no_bans,no_picks,no_picks_bans,pick_ban_rate,pick_rate,win_r
 11.52%,The International 2017,Storm Spirit,22,11,33,17.28%,5.76%,72.73%,Intelligence
 33.51%,The International 2017,Sven,64,39,103,53.93%,20.42%,64.10%,Strength
 ,The International 2017,Techies,,,,,,,Intelligence
+,The International 2017,Mars,,,,,,,Strength
 ,The International 2017,Dark Willow,,,,,,,Intelligence
 ,The International 2017,Grimstroke,,,,,,,Intelligence
 ,The International 2017,Pangolier,,,,,,,Agility
