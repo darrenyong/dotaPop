@@ -5,6 +5,7 @@
   margin: 5px 0px 0px 20px;
   display: inline-block;
   position: absolute;
+  -webkit-transition: all 0.5s;
 }
 
 .hero-icon:hover {
