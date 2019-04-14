@@ -22,7 +22,7 @@ each hero is picked AND banned for each event.</strong> It is built using the fo
 * Create histogram for each event 
 
 
-### Sorting by Heroes
+## Sorting by Heroes
 Users are granted the option to sort the heroes based on:
 * Name
 * Popularity
@@ -30,8 +30,23 @@ Users are granted the option to sort the heroes based on:
 ![Sorting Herpes](https://github.com/darrenyong/dotaPop/blob/master/assets/readme_images/sortingHeroes.gif)
 
 
-### Sorting by Events
+## Sorting by Events
+Users are also granted the option to sort the data based on Valve events. The
+events that are available as options are as follows:
+* [The International 2013](https://liquipedia.net/dota2/The_International/2013)
+* [The International 2014](https://liquipedia.net/dota2/The_International/2014)
+* [The International 2015](https://liquipedia.net/dota2/The_International/2015)
+* [The Frankfurt Major 2015](https://liquipedia.net/dota2/Frankfurt_Major/2015)
+* [The Shanghai Major 2016](https://liquipedia.net/dota2/Shanghai_Major/2016)
+* [The Manila Major 2016](https://liquipedia.net/dota2/Manila_Major/2016)
+* [The International 2016](https://liquipedia.net/dota2/The_International/2016)
+* [The Boston Major 2016](https://liquipedia.net/dota2/Boston_Major/2016)
+* [The Kiev Major 2017](https://liquipedia.net/dota2/Kiev_Major/2017)
+* [The International 2017](https://liquipedia.net/dota2/The_International/2017)
+* [The Bucharest Major 2018](https://liquipedia.net/dota2/PGL/Bucharest_Major/2018)
+* [The International 2018](https://liquipedia.net/dota2/The_International/2018)
+
 ![Sorting Events](https://github.com/darrenyong/dotaPop/blob/master/assets/readme_images/sortEvent.gif)
 
-### Viewing Hero Details
+## Viewing Hero Details
 ![Viewing Details](https://github.com/darrenyong/dotaPop/blob/master/assets/readme_images/viewDetails.gif)
