@@ -49,4 +49,10 @@ events that are available as options are as follows:
 ![Sorting Events](https://github.com/darrenyong/dotaPop/blob/master/assets/readme_images/sortEvent.gif)
 
 ## Viewing Hero Details
+Clicking on each hero sprite will display the details of that hero. Details include:
+* Overall popularity of the hero per event
+* How many games they participated in
+* How often the hero was picked
+* How often the hero was banned
+
 ![Viewing Details](https://github.com/darrenyong/dotaPop/blob/master/assets/readme_images/viewDetails.gif)
